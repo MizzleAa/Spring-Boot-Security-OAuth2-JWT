@@ -1,0 +1,53 @@
+.app-header {
+    background-color: rgb(25, 25, 25);
+    height: 60px;
+    position: relative;
+    z-index: 10;
+}
+
+.app-title {
+    color: antiquewhite;
+    line-height: 60px;
+    vertical-align: middle;
+    font-size: 1.35em;
+}
+
+.app-title:hover {
+    color:azure;
+}
+
+.app-branding {
+    float: left;
+}
+
+.app-options {
+    float: right;
+}
+
+.app-nav ul {
+    list-style-position: none;
+    margin: 0;
+    padding: 0;
+}
+
+.app-nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.app-nav ul li a {
+    color: antiquewhite;
+    display: inline-block;
+    line-height: 60px;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.app-nav ul li a:hover {
+    color: azure;
+}
+
+.app-nav ul li a.active {
+    color: azure;
+}
