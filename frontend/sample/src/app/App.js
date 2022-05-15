@@ -54,7 +54,7 @@ class App extends Component {
       authenticated: false,
       currentUser: null
     });
-    Alert.success("You're safely logged out!");
+    Alert.success("로그아웃 했습니다.");
   }
 
   componentDidMount() {

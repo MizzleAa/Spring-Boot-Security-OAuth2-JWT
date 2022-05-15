@@ -87,10 +87,10 @@ class SignupForm extends Component {
 
         signup(signUpRequest)
         .then(response => {
-            Alert.success("You're successfully registered. Please login to continue!");
+            Alert.success("회원가입에 성공하셨습니다.");
             this.props.history.push("/login");
         }).catch(error => {
-            Alert.error((error && error.message) || 'Oops! Something went wrong. Please try again!');            
+            Alert.error((error && error.message) || '예기치 않은 문제가 발생하였습니다.');            
         });
     }
 
